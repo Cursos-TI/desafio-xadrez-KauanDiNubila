@@ -21,11 +21,13 @@ int main() {
         printf("Esquerda\n");
         z++;
     } while (z < 5); {
-}
-    
+    }
 
-
-    
-
-    return 0;
+    //Movimento do Cavalo
+    for (int i= 0; i < 1; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("Cima\n");
+        }
+        printf("Direita\n");
+    }
 }
